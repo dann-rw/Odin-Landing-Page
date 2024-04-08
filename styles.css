@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+.header{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.header-logo{
+    color: white;
+}
+
+.nav-bar{
+    width: 350px; 
+}
+
+.hero{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 100px;
+}
+
+.main-title{
+    font-size: 48px;
+    font-weight:bolder;
+    color: #F9FAF8;
+    flex-wrap: wrap;
+    max-width: 500px;
+}
+
+.subtext{
+    font-size: 18px;
+    color: #e5e7eb;
+    flex-wrap: wrap;
+    
+}
+
+.sign-up{
+    width: 100px;
+    border-radius: 10px;
+}
+
+.coffee-farm{
+    width: 500px;
+    height: auto;
+    border: none;
+    border-radius: 0%;
+}
+
+.information-container{
+    background-color: white;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtitle{
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.image-text-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 200px;
+    margin: 0 10px;
+}
+
+.image-text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin: 0 10px;
+}
+
+.image-text-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin: 0 10px;
+}
+
+.image-text-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    margin: 0 10px;
+}
+
+.quote-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.inspiring-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    width: 770px;
+}
+
+.signoff{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+.call-to-action-container{
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 100px;
+    padding: 25px 0;
+    border-radius: 10px;
+}
+
+.call-to-action{
+    color: white;
+}
+
+.call-left-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-2{
+    border: 2px solid white;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.footer{
+    background-color: #1f2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
